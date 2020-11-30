@@ -6,10 +6,14 @@ using UnityEngine;
 public class State : ScriptableObject
 {
     [TextArea(10,30)][SerializeField] string questionText;
+    [TextArea(5,30)][SerializeField] string correctAnswerDescription;
     [TextArea(1,4)][SerializeField] string[] answers;
     [SerializeField] int correctAnswer;
 
-
+    public string GetCorrectAnswerDescription()
+    {
+        return correctAnswerDescription;
+    }
     public string GetQuestionState()
     {
         return questionText;
