@@ -12,11 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa4bb2a7bfb518e46b0c837925792469, type: 3}
   m_Name: Question 6
   m_EditorClassIdentifier: 
-  questionText: Question 6
-  correctAnswerDescription: 
+  questionText: What kind of connection type is ICMP
+  correctAnswerDescription: Interenet Control Message Protocol (ICMP) is connectionless
+    and always sends a single packet
   answers:
-  - 1
-  - 2
-  - 3
-  - 4
-  correctAnswer: 2
+  - ICMP is connectionless and always sends a single packet
+  - ICMP is connectionless and sends multiple packets
+  - ICMP is connection-oriented and always sends a single packet
+  - ICMP is connection-oriented and sends multiple packets
+  correctAnswer: 1

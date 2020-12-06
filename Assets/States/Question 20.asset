@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa4bb2a7bfb518e46b0c837925792469, type: 3}
   m_Name: Question 20
   m_EditorClassIdentifier: 
-  questionText: 
+  questionText: What port is used for HTTPS connections?
+  correctAnswerDescription: HTTPS uses port 443
   answers:
-  - 
-  - 
-  - 
-  - 
-  nextState: []
-  correctAnswer: 0
+  - 21
+  - 53
+  - 443
+  - 80
+  correctAnswer: 3

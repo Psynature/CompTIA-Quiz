@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa4bb2a7bfb518e46b0c837925792469, type: 3}
   m_Name: Question 13
   m_EditorClassIdentifier: 
-  questionText: 
+  questionText: What port number do we use to make SSH connections?
+  correctAnswerDescription: 22 is used for SSH connections
   answers:
-  - 
-  - 
-  - 
-  - 
-  nextState: []
-  correctAnswer: 0
+  - 22
+  - 23
+  - 80
+  - 51
+  correctAnswer: 1

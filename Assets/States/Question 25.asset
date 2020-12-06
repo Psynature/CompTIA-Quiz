@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa4bb2a7bfb518e46b0c837925792469, type: 3}
   m_Name: Question 25
   m_EditorClassIdentifier: 
-  questionText: 
+  questionText: Which port(s) are used for AFP?
+  correctAnswerDescription: AFP (Apple Connection Protocol) uses port 548
   answers:
-  - 
-  - 
-  - 
-  - 
-  correctAnswer: 0
+  - 548
+  - 161/162
+  - 389
+  - 143
+  correctAnswer: 1

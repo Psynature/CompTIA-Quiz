@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa4bb2a7bfb518e46b0c837925792469, type: 3}
   m_Name: Question 19
   m_EditorClassIdentifier: 
-  questionText: 
+  questionText: What port is used for IMAP connections?
+  correctAnswerDescription: Port 143 is used for IMAP (Internet Messgae Access Protocol)
   answers:
-  - 
-  - 
-  - 
-  - 
-  nextState: []
-  correctAnswer: 0
+  - 143
+  - 110
+  - 548
+  - 53
+  correctAnswer: 1

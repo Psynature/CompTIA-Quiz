@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa4bb2a7bfb518e46b0c837925792469, type: 3}
   m_Name: Question 26
   m_EditorClassIdentifier: 
-  questionText: 
+  questionText: Which ports are used in DHCP
+  correctAnswerDescription: DHCP (Dynamic Host Configuration Protocol) uses UDP on
+    ports 68 and 67
   answers:
-  - 
-  - 
-  - 
-  - 
+  - 138/139
+  - 80/443
+  - 161/162
+  - 67/68
   correctAnswer: 0

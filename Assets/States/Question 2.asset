@@ -12,11 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa4bb2a7bfb518e46b0c837925792469, type: 3}
   m_Name: Question 2
   m_EditorClassIdentifier: 
-  questionText: Question 2
-  correctAnswerDescription: 
+  questionText: Which of these form factors would you use when setting up a thin
+    client?
+  correctAnswerDescription: Mini-ITX form factor is typically used in building thin
+    clients.
   answers:
-  - 1
-  - 2
-  - 3
-  - 4
+  - MicroATX
+  - Mini-ITX
+  - Nano-ITX
+  - EATX
   correctAnswer: 2

@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa4bb2a7bfb518e46b0c837925792469, type: 3}
   m_Name: Question 27
   m_EditorClassIdentifier: 
-  questionText: 
+  questionText: Which port is used for LDAP
+  correctAnswerDescription: LDAP (Lightweight Directory Access Protocol) uses port
+    389
   answers:
-  - 
-  - 
-  - 
-  - 
-  correctAnswer: 0
+  - 548
+  - 389
+  - 445
+  - 3389
+  correctAnswer: 2

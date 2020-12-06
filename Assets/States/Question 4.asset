@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa4bb2a7bfb518e46b0c837925792469, type: 3}
   m_Name: Question 4
   m_EditorClassIdentifier: 
-  questionText: Question 4
-  correctAnswerDescription: 
+  questionText: What kind of connection type is TCP?
+  correctAnswerDescription: TCP is connection-oriented and sends multiple packets
   answers:
-  - 1
-  - 2
-  - 3
-  - 4
-  correctAnswer: 4
+  - TCP is connectionless, but also sends multiple packets
+  - TCP is connection-oriented and sends multiple packets
+  - TCP is connectionless and sends a single packet
+  - TCP is connection-oriented and sends a single packet
+  correctAnswer: 2
