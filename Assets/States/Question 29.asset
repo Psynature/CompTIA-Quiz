@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa4bb2a7bfb518e46b0c837925792469, type: 3}
   m_Name: Question 29
   m_EditorClassIdentifier: 
-  questionText: 
+  questionText: A Class A IP Address has how many locked octets?
+  correctAnswerDescription: The first octed of a Class A adress is locked.
   answers:
-  - 
-  - 
-  - 
-  - 
-  correctAnswer: 0
+  - One
+  - Two
+  - Three
+  - Four
+  correctAnswer: 1

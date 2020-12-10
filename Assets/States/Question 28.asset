@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa4bb2a7bfb518e46b0c837925792469, type: 3}
   m_Name: Question 28
   m_EditorClassIdentifier: 
-  questionText: 
+  questionText: What command should you use to check whether or not a DNS server
+    is running?
+  correctAnswerDescription: nslookup is used to identify if a DNS is working correctly
   answers:
-  - 
-  - 
-  - 
-  - 
-  correctAnswer: 0
+  - ipconfig
+  - nslookup
+  - netstat
+  - tracert
+  correctAnswer: 2

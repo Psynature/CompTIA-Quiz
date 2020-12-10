@@ -12,10 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa4bb2a7bfb518e46b0c837925792469, type: 3}
   m_Name: Question 33
   m_EditorClassIdentifier: 
-  questionText: 
+  questionText: Which is usually true of NAT routers?
+  correctAnswerDescription: Normally, NAT routers have a public IP address on their
+    WAN interface and a private IP address on their LAN interface.
   answers:
-  - 
-  - 
-  - 
-  - 
-  correctAnswer: 0
+  - NAT routers have a private address on the WAN side and a public address on the
+    LAN side.
+  - NAT routers have a public address on the WAN side and a private address on the
+    LAN side.
+  - NAT routers have a public address on the WAN side and a private address on the
+    LAN side.
+  - NAT routers have a public address on the WAN side and a public address on the
+    a LAN side.
+  correctAnswer: 3

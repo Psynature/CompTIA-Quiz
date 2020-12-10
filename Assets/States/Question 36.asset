@@ -12,10 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa4bb2a7bfb518e46b0c837925792469, type: 3}
   m_Name: Question 36
   m_EditorClassIdentifier: 
-  questionText: 
+  questionText: What is the maximum number of characters in an FQDN?
+  correctAnswerDescription: Fully-qualified domain names can have up to 255 characters,
+    including dots.
   answers:
-  - 
-  - 
-  - 
-  - 
-  correctAnswer: 0
+  - 128 (including dots)
+  - 128 (not including dots)
+  - 255 (including dots)
+  - 255 (not including dots)
+  correctAnswer: 3

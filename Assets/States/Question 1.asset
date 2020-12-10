@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Question 1
   m_EditorClassIdentifier: 
   questionText: What is the maximum speed of USB 1.0
-  correctAnswerDescription: 1 is the correct answer
+  correctAnswerDescription: USB 1.0 runs at 1.5Mb/s
   answers:
   - 1.5 Mb/sec
   - 2.2 Mb/sec
